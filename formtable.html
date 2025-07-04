@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lecture 2: Introduction to HTML</title>
+</head>
+<body>
+
+    <h1>Lecture 2: Introduction to HTML</h1>
+    <ul>
+        <li><a href="#semantic">Section 1: Semantic Elements</a></li>
+        <li><a href="#tables">Section 2: Tables</a></li>
+        <li><a href="#forms">Section 3: Forms</a></li>
+    </ul>
+
+    <h2 id="semantic">Section 1: Semantic Elements</h2>
+    <p>Semantic elements clearly describe their meaning to both the browser and the developer.</p>
+
+    <h3>Example of a Semantic Element</h3>
+    <p>The <code>&lt;article&gt;</code> element is used to represent a self-contained composition in a document.</p>
+
+    <h2 id="tables">Tables</h2>
+    <p>Tables are used to display data in a structured format.</p>
+    <table>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+        <tr>
+            <td>Data 1</td>
+            <td>Data 2</td>
+        </tr>
+        <tr>
+            <td>Data 3</td>
+            <td>Data 4</td>
+        </tr>
+        <tr>
+            <td>Data 5</td>
+            <td>Data 6</td>
+        </tr>
+    </table>
+
+    <h2 id="forms">Forms</h2>
+    <p>Forms are used to collect user input.</p>
+    <form>
+        <label>Name: <input type="text" placeholder="Enter your name..." required></label><br>
+        <label>Email: <input type="email" placeholder="Enter your email..." required></label><br>
+        Choose an option: 
+        <label><input type="radio" name="gender"> Male</label>
+        <label><input type="radio" name="gender"> Female</label><br>
+        Agree to: <br>
+        <label><input type="checkbox"> Terms & Conditions</label>
+        <label><input type="checkbox"> Privacy policy</label><br>
+        Select Country 
+        <select>
+            <option>India</option>
+            <option>UAE</option>
+            <option>USA</option>
+            <option>UK</option>
+            <option>Canada</option>
+            <option>Australia</option>
+            <option>Germany</option>
+        </select><br>
+        Comments:<br>
+        <textarea rows="1" cols="40" placeholder="Enter your comments here..."></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
